@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="send-kafka" />
+        <module name="jenkins-send-kafka-plugin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jenkins-send-kafka-plugin" target="1.8" />
       <module name="send-kafka" target="1.8" />
     </bytecodeTargetLevel>
   </component>

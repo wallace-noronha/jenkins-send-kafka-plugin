@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/send-kafka.iml" filepath="$PROJECT_DIR$/send-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jenkins-send-kafka-plugin.iml" filepath="$PROJECT_DIR$/.idea/jenkins-send-kafka-plugin.iml" />
     </modules>
   </component>
 </project>

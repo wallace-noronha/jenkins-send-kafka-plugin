@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="188d8c30-e8a1-45ed-87f5-7fc86f0946fd" name="Default Changelist" comment="" />
+    <list default="true" id="188d8c30-e8a1-45ed-87f5-7fc86f0946fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jenkins-send-kafka-plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/jenkins/plugins/ProducerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/jenkins/plugins/KafkaProducerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/jenkins/plugins/KafkaProducerMessage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,32 +32,38 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/maven" />
-        <option name="userSettingsFile" value="C:\maven\conf\settings.xml" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1mIy0EMR93JtlWgTs5jmQiWN7I3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -51,36 +75,69 @@
       <option name="presentableId" value="Default" />
       <updated>1609195176152</updated>
     </task>
+    <task id="LOCAL-00001" summary="add gitignore">
+      <created>1609259588396</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609259588396</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="279" y="23" width="881" height="829" key="CommitChangelistDialog2" timestamp="1609259588280">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="279" y="23" width="881" height="829" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1609259588280" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1609202107173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609202107173" />
-    <state width="1286" height="163" key="GridCell.Tab.0.bottom" timestamp="1609205174160">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom" timestamp="1609258861673">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609205174160" />
-    <state width="1286" height="163" key="GridCell.Tab.0.center" timestamp="1609205174160">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1609258861673" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center" timestamp="1609258861672">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609205174160" />
-    <state width="1286" height="163" key="GridCell.Tab.0.left" timestamp="1609205174160">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1609258861672" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left" timestamp="1609258861671">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609205174160" />
-    <state width="1286" height="163" key="GridCell.Tab.0.right" timestamp="1609205174160">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1609258861671" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right" timestamp="1609258861672">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609205174160" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1609203536672">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1609258861672" />
+    <state x="308" y="186" key="IDE.errors.dialog" timestamp="1609242471504">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="308" y="186" key="IDE.errors.dialog/0.23.1440.829@0.23.1440.829" timestamp="1609242471504" />
+    <state x="194" y="23" width="1024" height="829" key="SettingsEditor" timestamp="1609242837037">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1609203536672" />
+    <state x="194" y="23" width="1024" height="829" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1609242837037" />
+    <state x="320" y="176" key="Vcs.Push.Dialog.v2" timestamp="1609259589913">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="320" y="176" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1609259589913" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1609195408483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1609195408483" />
+    <state x="9" y="99" key="new project wizard" timestamp="1609244331718">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="9" y="99" key="new project wizard/0.23.1440.829@0.23.1440.829" timestamp="1609244331718" />
   </component>
 </project>
