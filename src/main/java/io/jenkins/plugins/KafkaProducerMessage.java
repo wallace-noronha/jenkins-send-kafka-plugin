@@ -5,11 +5,15 @@ import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
 import java.util.Properties;
+import java.util.logging.Logger;
 
 public class KafkaProducerMessage {
 
+    private static final Logger LOGGER = Logger.getLogger(KafkaProducerMessage.class.getName());
+
     private String topic;
     private String broker;
+    private Producer<String, String> producer;
     ProducerProperties producerProperties = new ProducerProperties();
 
     public KafkaProducerMessage(String broker, String topic){
@@ -20,13 +24,17 @@ public class KafkaProducerMessage {
     public void produce(String message){
 
         try {
-
-            Producer<String, String> producer = new KafkaProducer<String, String>(producerProperties.getProperties(broker));
-            System.out.println("TRY TO SEND MESSAGE....");
+            producer =  new KafkaProducer<>(producerProperties.getProperties(broker));
+            LOGGER.info("TRY TO SEND MESSAGE....");
             producer.send(new ProducerRecord<String, String>(topic, message));
-            System.out.println("SUCCESS SEND MESSAGE!!!");
+            LOGGER.info("SUCCESS SEND MESSAGE!!!");
         } catch (Exception e){
-            System.out.println("Erro to send message, try again in a feel later!");
+            LOGGER.severe("Error to send message, try again in a feel later!");
+            LOGGER.severe("STACKTRACE: " + e.getMessage());
+        } finally {
+            if (producer != null) {
+                producer.close();
+            }
         }
     }
 }

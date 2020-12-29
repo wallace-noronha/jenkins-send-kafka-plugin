@@ -13,7 +13,7 @@ public class ProducerProperties {
         //Set acknowledgements for producer requests.
         props.put("acks", "all");
         //Set timeout from send
-        props.put("timeout.ms",3000);
+        props.put("timeout.ms",300);
         //If the request fails, the producer can automatically retry,
         props.put("retries", 5);
         //Specify buffer size in config

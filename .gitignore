@@ -20,6 +20,7 @@
 *.rar
 
 .idea/
+.work/
 .github
 *.iml
 target/
